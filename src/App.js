@@ -103,7 +103,7 @@ function App() {
       />
       <NextUIProvider theme={darkTheme}/>
       <Routes> 
-            <Route path="/" element={<Home/> } />
+            <Route path="/" element={<AvatarGen/> } />
             <Route path='/signUp' element= {<FieldCard/>}/>
             <Route path='/avatar' element= {<AvatarGen/>}/>
             {/* <Route path= "/dashBoard" element={<MyDashboard/>}/>
