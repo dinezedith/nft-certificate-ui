@@ -35,7 +35,7 @@ function AvatarGen() {
   return (
     <div style={{ width: "100vw", height: "100vh" }}>
       <AvatarCreator
-        subdomain="fabc-llc-test.readyplayer.me/avatar?frameAPI"
+        subdomain="https://fabc-llc-test.readyplayer.me/avatar?frameAPI"
         config={config}
         style={style}
         onAvatarExported={handleOnAvatarExported}
